@@ -20,5 +20,5 @@
         textarea.setSelectionRange(0, 99999);
         document.execCommand('copy');
         document.body.removeChild(textarea);
-        notyf.success("Đã sao chép: "+ copyText);
+        notyf.success("Copy Thành công: "+ copyText);
     }
